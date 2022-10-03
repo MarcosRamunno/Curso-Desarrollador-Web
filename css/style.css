@@ -1,0 +1,1383 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat.regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+/* Inicio Estilos Index */
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+li {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+/* Fin Estilos Index */
+
+/* Inicio Propiedades Main Header */
+.main__header {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  width: 96vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.maim__header__nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+.maim__header__nav li {
+  padding-left: 15px;
+  list-style: none;
+}
+.Inicio {
+  color: #3685fb;
+  font-family: "Montserrat", sans-serif;
+}
+/* Fin Propiedades Main Header */
+
+/* Inicio Propiedades Destiny One */
+.destiny_one_conteiner {
+  padding: 0 15px;
+}
+.principal_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 35px;
+}
+.main__title {
+  font-style: normal;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 15px 0;
+  animation: main__title 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s backwards;
+}
+@keyframes main__title {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.description {
+  font-weight: 500;
+  font-size: 20px;
+  animation: description 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1.5s backwards;
+}
+@keyframes description {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.look_more {
+  font-weight: 600;
+  font-size: 24px;
+  animation: look_more 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) 2s backwards;
+}
+@keyframes look_more {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.scene img {
+  width: 95%;
+  animation: scene 2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
+}
+@keyframes scene {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* Fin Propiedades Destiny One */
+
+/* Inicio Propiedades Forest */
+.main_second_title {
+  background-image: url(/img/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+  padding: 30px 15px;
+}
+.main_second_title_conteiner {
+  background-image: url(/img/1.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  display: flex;
+  height: 165px;
+  flex-direction: column;
+}
+.second_title {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  text-align: center;
+}
+.look_moore_forest {
+  text-decoration: none;
+  display: flex;
+  color: black;
+  width: 55%;
+  margin: auto;
+  font-size: 20px;
+  background: #ffffff;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+/* Fin Propiedades Forest */
+
+/* Inicio Propiedades Experiencia */
+.main__experience {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  margin: auto;
+}
+.main__experience--title {
+  display: flex;
+  justify-content: center;
+}
+.main_experience--img {
+  display: flex;
+  height: 410px;
+  overflow: auto;
+}
+.resort {
+  background-image: url(/img/fondo\ resort.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 91%;
+  display: flex;
+  padding: 11px;
+  width: 70%;
+  flex-direction: column;
+}
+.title_resort {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.camp {
+  background-image: url(/img/fondo\ campamento.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 91%;
+  display: flex;
+  padding: 11px;
+  width: 70%;
+  flex-direction: column;
+}
+.title_camp {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.beach {
+  background-image: url(/img/fondo\ playa.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 91%;
+  display: flex;
+  padding: 11px;
+  width: 70%;
+  flex-direction: column;
+}
+.title_beach {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+/* Fin Propiedades Experiencia */
+
+/* Inicio Propiedades Actividades */
+.main_activity {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+.main_activity_img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.bridge {
+  background-image: url(/img/puente.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  height: 288px;
+  width: 275px;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.title_bridge {
+  color: #ffffff;
+  display: flex;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.mountain {
+  background-image: url(/img/montaña.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  height: 288px;
+  width: 275px;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.title_mountain {
+  color: #ffffff;
+  display: flex;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.paragliding {
+  background-image: url(/img/paracaidismo.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  height: 288px;
+  width: 275px;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.title_paragliding {
+  color: #ffffff;
+  display: flex;
+  padding: 10px 0px;
+  margin: 0px;
+}
+.ballons {
+  background-image: url(/img/globo.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  height: 288px;
+  width: 275px;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.title_ballons {
+  color: #ffffff;
+  display: flex;
+  padding: 10px 0px;
+  margin: 0px;
+}
+/* Fin Propiedades Actividades */
+
+/* Inicio Propiedades Precios */
+.main_cash {
+  background-image: url(/img/fondo\ color.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  height: 503px;
+  width: 95%;
+  margin: 60px auto;
+}
+.title_cash {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  font-size: 35px;
+  margin: unset;
+  flex-direction: row;
+}
+.main_prices {
+  display: flex;
+  overflow: overlay;
+  height: 430px;
+  align-items: center;
+  width: 99%;
+}
+.main_prices h3 {
+  font-size: 22px;
+  margin: 15px 0px;
+}
+.main_prices ul {
+  list-style-image: url(/img/item.png);
+}
+.main_prices li {
+  font-size: 20px;
+}
+.main_prices a {
+  display: flex;
+  justify-content: space-around;
+}
+.economic {
+  display: flex;
+  flex-direction: column;
+  height: 23em;
+  padding: 15px 30px;
+  width: 12em;
+  margin: 10px 20px;
+  border: #ffffff 5px solid;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 #000000;
+  background: #f1f1f1;
+  align-content: space-around;
+  align-items: start;
+  justify-content: space-around;
+}
+.look_more_economic {
+  color: #ffffff;
+  background: #3685fb;
+  border: #3685fb 5px;
+  border-radius: 10px;
+  width: 85%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.premium {
+  display: flex;
+  flex-direction: column;
+  height: 23em;
+  width: 12em;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border: #ffffff 5px solid;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 #000000;
+  background: #f1f1f1;
+  align-content: space-around;
+  align-items: start;
+}
+.look_more_premium {
+  color: #ffffff;
+  background: #3685fb;
+  border: #3685fb 5px;
+  border-radius: 10px;
+  width: 85%;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.vip {
+  height: 23em;
+  width: 12em;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  display: flex;
+  color: #ffffff;
+  border: #ffffff 5px solid;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 #000000;
+  background: #a18cd1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact_us {
+  color: #3685fb;
+  background: #ffffff;
+  border: #ffffff 5px;
+  border-radius: 10px;
+  width: 150px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+/* Fin Propiedades Precios */
+
+/* Inicio Propiedades Opiniones Usuarios */
+.main_users {
+  display: flex;
+  width: 90%;
+  border: rgb(240, 242, 245) solid 15px;
+  margin: auto;
+}
+.main_users_conteiner {
+  display: flex;
+  align-content: normal;
+  justify-items: end;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text_users {
+  text-align: start;
+  height: 15%;
+  padding: 15px;
+}
+.coment_user {
+  display: flex;
+  width: 94%;
+  height: 102px;
+  padding: 10px;
+  border-bottom: #3685fb solid 10px;
+  background-color: #f6f4ff;
+  border-radius: 10px;
+  margin: auto;
+  align-items: center;
+}
+.coment_user_paragraph {
+  text-align: center;
+}
+/* Fin Propiedades Opiniones Usuarios */
+
+/* Inicio Propiedades Preguntas */
+.main_contact {
+  background-image: url(/img/fondo\ questions.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: flex;
+  width: 90%;
+  height: 198px;
+  padding: 0px 15px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.title_contact {
+  color: #ffffff;
+  width: 100%;
+  padding: 5px;
+  font-size: 25px;
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+.ask_host {
+  background: #ffffff;
+  border: #ffffff 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: large;
+  width: 80%;
+  padding: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+/* Fin Propiedades Preguntas */
+
+/* Inicio Propiedades Mail */
+.main_address {
+  background-image: url(/img/fondo\ enter\ mail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  width: 80%;
+  height: 300px;
+  padding: 34px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.title_address {
+  display: flex;
+  width: 97%;
+  padding: 20px;
+}
+.email_box {
+  display: flex;
+  width: 90%;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+/* Fin Propiedades Mail */
+
+/* Inicio Propiedades Footer */
+.main_footer {
+  background-color: #f0f2f5;
+  display: flex;
+  width: 90%;
+  height: 83em;
+  padding: 18px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.main_footer ul {
+  list-style: none;
+  padding: 0px;
+}
+.main_footer ul li {
+  padding: 15px 0px;
+}
+.main_support {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.main_community {
+  width: 90%;
+  height: 11%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.main_about {
+  width: 90%;
+  height: 24%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.main_redes {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+.main_copyrigth {
+  display: flex;
+  width: 95%;
+  height: 5%;
+  padding: 5px;
+  border-top: #000000 solid;
+}
+.main_copyrigth ul {
+  display: flex;
+  list-style: none;
+  font-size: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0px 0px;
+  justify-content: space-between;
+}
+.main_copyrigth ul li {
+  display: flex;
+  width: max-content;
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+}
+/* Fin Propiedades Footer */
+
+@media (min-width: 768px) {
+  .main__header {
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+  }
+  .maim__header__nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  .maim__header__nav li {
+    padding-left: 15px;
+    list-style: none;
+  }
+  .Inicio {
+    color: #3685fb;
+  }
+
+  .destiny_one_conteiner {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  .principal_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+  }
+  .main__title {
+    font-style: normal;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin: 15px 0;
+  }
+  .description {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .look_more {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .scene img {
+    width: 100%;
+  }
+  .main_second_title_conteiner {
+    height: 22em;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .look_moore_forest {
+    height: 12%;
+    width: 35%;
+    margin: 10px;
+    justify-content: center;
+  }
+  .main_experience--img {
+    height: 35em;
+  }
+  .resort {
+    background-size: 89%;
+    padding: 0 20px;
+    width: 47%;
+  }
+  .camp {
+    background-size: 89%;
+    padding: 0 20px;
+    width: 47%;
+  }
+  .beach {
+    background-size: 89%;
+    padding: 0 20px;
+    width: 47%;
+  }
+  /* Fin Propiedades Experiencia */
+
+  /* Inicio Propiedades Actividades */
+  .main_activity {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main_activity_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+  }
+  /* Fin Propiedades Actividades */
+
+  /* Inicio Propiedades Precios */
+  .main_prices {
+    justify-content: space-around;
+  }
+  .economic {
+    margin: 10px 10px;
+  }
+  .premium {
+    margin: 10px 10px;
+  }
+  .vip {
+    margin: 10px 10px;
+  }
+  /* Fin Propiedades Precios */
+
+  /* Inicio Propiedades Opiniones Usuarios */
+  .text_users {
+    font-size: 29px;
+  }
+  .coment_user {
+    font-size: 21px;
+    justify-content: space-around;
+  }
+  .coment_user_paragraph {
+    text-align: center;
+  }
+  /* Fin Propiedades Opiniones Usuarios */
+
+  /* Inicio Propiedades Preguntas */
+  .main_contact {
+    height: 24em;
+  }
+  .title_contact {
+    font-size: 50px;
+    padding: 15px;
+  }
+  .ask_host {
+    width: 55%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Fin Propiedades Preguntas */
+
+  /* Inicio Propiedades Mail */
+  .main_address {
+    padding: 53px;
+  }
+  .title_address {
+    font-size: 33px;
+  }
+  /* Fin Propiedades Mail */
+
+  /* Inicio Propiedades Footer */
+  .main_footer {
+    height: 33em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+  }
+  .main_footer ul {
+    list-style: none;
+    padding: 0px;
+  }
+  .main_footer ul li {
+    padding: 15px 0px;
+  }
+  .main_support {
+    width: 45%;
+    height: 22em;
+  }
+  .main_community {
+    width: 45%;
+    height: 22em;
+  }
+  .main_about {
+    width: 45%;
+    height: 22em;
+  }
+  .main_redes {
+    width: 45%;
+    height: 22em;
+  }
+  .main_copyrigth {
+    height: 4em;
+  }
+  /* Fin Propiedades Footer */
+}
+@media (min-width: 992px) {
+  .body {
+    width: 98vw;
+    margin: auto;
+  }
+  .main__header {
+    font-family: "Montserrat", sans-serif;
+    width: 98vw;
+    height: 96px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .maim__header__nav {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: end;
+    gap: 0 40px;
+    list-style: none;
+    justify-items: center;
+  }
+  .main__header ul ul {
+    display: none;
+    position: absolute;
+    width: 70px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    bottom: -70px;
+  }
+  .main__header ul ul li {
+    display: block;
+  }
+  .main__header ul li:hover ul {
+    display: block;
+  }
+  .maim__header--logo img {
+    padding: 20px;
+    margin: 25px;
+    border: 1px solid #ffffff;
+  }
+  #header-principal {
+    background-color: white;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+  .Inicio {
+    color: #3685fb;
+    font-family: "Montserrat", sans-serif;
+  }
+  .destiny_one {
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+  }
+  .destiny_one_conteiner {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    width: 90%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .principal_text {
+    display: grid;
+    padding: 50px;
+    bottom: 100px;
+  }
+  .main__title {
+    font-size: 69px;
+  }
+  .scene {
+    display: flex;
+    padding: 50px;
+  }
+  .main_second_title {
+    display: grid;
+    width: 90%;
+    height: 800px;
+    padding: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: end;
+  }
+  .main_second_title_conteiner {
+    background-image: url(/img/1.svg);
+    background-repeat: no-repeat;
+    width: 1430px;
+    height: 713px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .second_title {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  .look_moore_forest {
+    width: 10%;
+    height: 5%;
+    margin: 20px 20px;
+    margin-bottom: 130px;
+    justify-content: center;
+  }
+  .main__experience {
+    display: grid;
+    width: 90%;
+    height: 700px;
+    padding: 50px;
+    margin: auto;
+    justify-items: center;
+    grid-template-rows: 1fr 6fr;
+  }
+  .main_experience--img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 700px;
+    justify-items: center;
+    grid-gap: 50px;
+    overflow: initial;
+  }
+  .resort {
+    padding: 20px;
+    width: 401px;
+  }
+  .image__resort {
+    width: 99%;
+    height: 36%;
+    margin: 0px auto;
+  }
+  .title_resort {
+    margin-left: 25px;
+  }
+  .camp {
+    padding: 20px;
+    width: 401px;
+  }
+  .image__camp {
+    width: 99%;
+    height: 36%;
+    margin: 0px auto;
+  }
+  .title_camp {
+    margin-left: 25px;
+  }
+  .beach {
+    padding: 20px;
+    width: 401px;
+  }
+  .image__beach {
+    width: 99%;
+    height: 36%;
+    margin: 0px auto;
+  }
+  .title_beach {
+    margin-left: 25px;
+  }
+  .main_activity {
+    height: 1500px;
+    padding: 50px;
+  }
+  .main_activity_img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+  }
+  .bridge {
+    width: 632px;
+    height: 650px;
+    align-items: start;
+  }
+  .title_bridge {
+    margin: 20px;
+    height: 9%;
+    width: 200px;
+    padding: 10px 30px;
+  }
+  .mountain {
+    width: 632px;
+    height: 650px;
+    align-items: start;
+  }
+  .title_mountain {
+    margin: 20px;
+    height: 9%;
+    width: 200px;
+    padding: 10px 30px;
+  }
+  .paragliding {
+    width: 632px;
+    height: 650px;
+    align-items: start;
+  }
+  .title_paragliding {
+    margin: 20px;
+    height: 9%;
+    width: 200px;
+    padding: 10px 30px;
+  }
+  .ballons {
+    width: 632px;
+    height: 650px;
+    align-items: start;
+  }
+  .title_ballons {
+    margin: 20px;
+    height: 9%;
+    width: 200px;
+    padding: 10px 30px;
+  }
+  .main_cash {
+    height: 900px;
+  }
+  .title_cash {
+    padding-top: 70px;
+    font-size: 56px;
+  }
+  .main_prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    height: 800px;
+    padding: 10px 50px;
+    margin: auto;
+  }
+  .main_prices h3 {
+    font-size: 30px;
+  }
+  .economic {
+    display: grid;
+    grid-template-rows: 15% 50% 15%;
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 15px 0 #000000;
+    justify-content: start;
+  }
+  .list_economic {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px 0px;
+    height: 50%;
+    width: 227px;
+  }
+  .look_more_economic {
+    margin: 20px auto;
+  }
+  .premium {
+    display: grid;
+    grid-template-rows: 15% 55% 15%;
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 15px 0 #000000;
+    align-items: start;
+  }
+  .list_premium {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px 0px;
+    width: 227px;
+  }
+  .look_more_premium {
+    margin: 20px auto;
+  }
+  .vip {
+    width: 50%;
+    height: 70%;
+    padding: 20px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    box-shadow: 0 0 15px 0 #000000;
+    align-items: center;
+    justify-items: center;
+  }
+  .contact_us {
+    width: 85%;
+    height: 42px;
+  }
+  .main_users {
+    background-image: url(/img/Group\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 1000px;
+    border: rgb(240, 242, 245) solid 50px;
+  }
+  .main_users_conteiner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: normal;
+    justify-items: end;
+  }
+  .text_users {
+    text-align: start;
+    height: 15%;
+    padding: 50px;
+  }
+  .coment_user_conteiner {
+    display: grid;
+    align-items: end;
+  }
+  .coment_user {
+    width: 600px;
+    height: 102px;
+    padding: 10px;
+    margin: 50px;
+  }
+  .img_user_x {
+    display: flex;
+  }
+  .coment_user_paragraph {
+    display: flex;
+    text-align: center;
+    height: 45%;
+    margin: auto;
+  }
+  .main_contact {
+    height: 900px;
+    padding: 50px;
+    align-items: flex-start;
+  }
+  .title_contact {
+    text-align: start;
+    width: 30%;
+    padding: 20px;
+    font-size: 80px;
+    margin: 0;
+  }
+  .ask_host {
+    background: #ffffff;
+    border: #ffffff 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    width: 20%;
+    padding: 20px;
+  }
+  .main_address {
+    width: 90%;
+    padding: 50px;
+    flex-direction: column;
+  }
+  .title_address {
+    width: 30%;
+  }
+  .email_box {
+    width: 30%;
+    justify-content: center;
+  }
+  .main_footer {
+    height: 33em;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .main_support {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+  .main_community {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+  .main_about {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+  .main_redes {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+  .main_copyrigth ul {
+    justify-content: flex-start;
+  }
+  .main_copyrigth ul li {
+    width: 12%;
+    flex-direction: column;
+  }
+}
+
+/* Inicio Propiedades contacto.html */
+.contact_html {
+  margin: auto;
+  background-image: url(/img/fondo\ contacto.png);
+  height: 83.5em;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  display: grid;
+  width: 90%;
+  justify-items: center;
+  align-items: center;
+}
+.contact_html_container {
+  width: 80%;
+  height: 50em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 20px;
+  justify-items: center
+}
+.contact_directory {
+  background-image: url(/img/Vector.png);
+  display: grid;
+  background-size: 121%;
+  background-position: center;
+  background-repeat: no-repeat;
+  grid-template-rows: 20% 40% 20%;
+  width: 26.5em;
+  height: 37em;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.title_directory {
+  margin-left: 30px;
+  width: 10em;
+  margin-top: 20px;
+}
+.contacts {
+  display: grid;
+  grid-template-columns: 11% 80%;
+  grid-template-rows: 25% 25% 25%;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+}
+.phone {
+  width: 80%;
+}
+.ubication {
+  width: 80%;
+}
+.web {
+  width: 80%;
+}
+.social_conteiner {
+  display: grid;
+  width: 55%;
+  height: 55%;
+}
+.social_reds {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-around;
+  padding: 15px;
+  justify-items: center;
+}
+.contact_dats {
+  background-image: url(/img/Rectangle\ 45.png);
+  font-family: "Montserrat", sans-serif;
+  height: 50em;
+  width: 56em;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contact_dats_conteinter {
+  padding: 20px;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 10% 73% 10%;
+  height: 40em;
+  align-items: center;
+  align-content: center;
+}
+.main_data {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(100, 100, 100);
+  justify-content: space-around;
+  align-content: space-around;
+}
+.title_data {
+  width: 77%;
+}
+.data_name1 {
+  display: grid;
+  grid-template-rows: 2em 4em;
+  width: 45%;
+  padding: 10px;
+}
+.data_name1_box {
+  border: unset;
+  border-bottom: solid #2f80ed 3px;
+}
+.data_name2 {
+  display: grid;
+  grid-template-rows: 2em 4em;
+  width: 45%;
+  padding: 10px;
+}
+.data_name2_box {
+  border: unset;
+  border-bottom: solid #2f80ed 3px;
+}
+.data_email {
+  display: grid;
+  grid-template-rows: 2em 4em;
+  width: 45%;
+  padding: 10px;
+}
+.data_email_box {
+  border: unset;
+  border-bottom: solid #2f80ed 3px;
+}
+.data_phone {
+  display: grid;
+  grid-template-rows: 2em 4em;
+  width: 45%;
+  padding: 10px;
+}
+.data_phone_box {
+  border: unset;
+  border-bottom: solid #2f80ed 3px;
+}
+.data_message {
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 2em 4em;
+  width: 100%;
+  align-items: center;
+}
+.data_message_box {
+  border: unset;
+  border-bottom: solid #2f80ed 3px;
+}
+.data_send {
+  display: flex;
+  padding: 20px;
+  height: 6em;
+  width: 40em;
+  flex-direction: row;
+}
+.data_send_box {
+  background-color: #2f80ed;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  border: unset;
+  width: 20em;
+}
+/* Fin Propiedades contacto.html */
+
+/* Inicio Propiedades boostrap */
+.navbar_background {
+  background-color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: gray;
+}
+.navbar-nav .nav-link.active {
+  color: #2f80ed !important;
+}
+/* Fin Propiedades boostrap */
