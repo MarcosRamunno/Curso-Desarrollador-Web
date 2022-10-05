@@ -133,14 +133,14 @@ a {
 
 /* Inicio Propiedades Forest */
 .main_second_title {
-  background-image: url(/img/Rectangle\ 9.png);
+  background-image: url(../img/Rectangle\ 9.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: 100%;
   padding: 30px 15px;
 }
 .main_second_title_conteiner {
-  background-image: url(/img/1.svg);
+  background-image: url(../img/1.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
