@@ -10007,6 +10007,72 @@ a {
 .carousel {
   width: 19em; }
 
+/* Inicio Propiedades Footer */
+.main_footer {
+  background-color: #f0f2f5;
+  display: flex;
+  width: 90%;
+  height: 83em;
+  padding: 18px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-evenly; }
+  .main_footer ul {
+    list-style: none;
+    padding: 0px; }
+    .main_footer ul li {
+      padding: 15px 0px; }
+
+.main_support {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column; }
+
+.main_community {
+  width: 90%;
+  height: 11%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column; }
+
+.main_about {
+  width: 90%;
+  height: 24%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column; }
+
+.main_redes {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column; }
+
+.main_copyrigth {
+  display: flex;
+  width: 95%;
+  height: 5%;
+  padding: 5px;
+  border-top: #000000 solid; }
+  .main_copyrigth ul {
+    display: flex;
+    list-style: none;
+    font-size: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px;
+    justify-content: space-between; }
+    .main_copyrigth ul li {
+      display: flex;
+      width: max-content;
+      font-size: 15px;
+      padding: 5px;
+      text-align: center; }
+
+/* Fin Propiedades Footer */
 @media (min-width: 768px) {
   /* Inicio Propiedades Main Header 768px */
   .main__header {
@@ -10073,13 +10139,79 @@ a {
       -webkit-filter: blur(0px); } }
   .destiny .carousel {
     width: 32em; }
-  /* Fin Propiedades Main Header min 768px */ }
+  /* Inicio Propiedades Footer */
+  .main_footer {
+    height: 50em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start; }
+    .main_footer ul {
+      list-style: none;
+      padding: 0px; }
+      .main_footer ul li {
+        padding: 15px 0px; }
+  .main_support {
+    width: 45%;
+    height: 22em; }
+  .main_community {
+    width: 45%;
+    height: 22em; }
+  .main_about {
+    width: 45%;
+    height: 22em; }
+  .main_redes {
+    width: 45%;
+    height: 22em; }
+  .main_copyrigth {
+    height: 4em; }
+  /* Fin Propiedades Footer */ }
 
-@media (min-width: 768px) and (min-width: 992px) {
+/* Fin Propiedades Main Header min 768px */
+@media (min-width: 992px) {
+  .main__header {
+    font-family: "Montserrat", sans-serif;
+    width: 98vw;
+    height: 96px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-around;
+    align-items: center; }
+    .main__header__nav {
+      display: grid;
+      position: relative;
+      grid-template-columns: repeat(5, 1fr);
+      justify-content: end;
+      gap: 0 40px;
+      list-style: none;
+      justify-items: center; }
+      .main__header__nav ul ul {
+        display: none;
+        position: absolute;
+        width: 70px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        bottom: -70px; }
+        .main__header__nav ul ul li {
+          display: block; }
+          .main__header__nav ul ul li:hover ul {
+            display: block; }
+    .main__header--logo img {
+      padding: 20px;
+      margin: 25px;
+      border: 1px solid #ffffff; }
+  #header-principal {
+    background-color: white;
+    color: black;
+    font-family: "Montserrat", sans-serif; }
+  .Inicio {
+    color: #3685fb;
+    font-family: "Montserrat", sans-serif; }
   .destiny {
     background-image: url(/img/fondo-descubre.png);
     background-repeat: no-repeat;
-    background-position: center bottom; }
+    background-position: center bottom;
+    background-size: 1875px; }
     .destiny_tittle_main {
       margin-top: 3em;
       font-size: 5em;
@@ -10106,4 +10238,30 @@ a {
         .destiny_box_3_tittle {
           margin-bottom: 1em; }
   .carousel {
-    width: 25em; } }
+    width: 25em; }
+  .main_footer {
+    height: 33em;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .main_support {
+    width: 20%;
+    height: 22em;
+    padding: 20px; }
+  .main_community {
+    width: 20%;
+    height: 22em;
+    padding: 20px; }
+  .main_about {
+    width: 20%;
+    height: 22em;
+    padding: 20px; }
+  .main_redes {
+    width: 20%;
+    height: 22em;
+    padding: 20px; }
+  .main_copyrigth ul {
+    justify-content: flex-start; }
+    .main_copyrigth ul li {
+      width: 12%;
+      flex-direction: column; } }

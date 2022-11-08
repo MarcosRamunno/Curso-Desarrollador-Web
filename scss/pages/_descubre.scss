@@ -175,6 +175,83 @@ a {
   width: 19em;
 }
 
+/* Inicio Propiedades Footer */
+.main_footer {
+  background-color: #f0f2f5;
+  display: flex;
+  width: 90%;
+  height: 83em;
+  padding: 18px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+  & ul {
+    list-style: none;
+    padding: 0px;
+    & li {
+      padding: 15px 0px;
+    }
+  }
+}
+
+.main_support {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_community {
+  width: 90%;
+  height: 11%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_about {
+  width: 90%;
+  height: 24%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_redes {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_copyrigth {
+  display: flex;
+  width: 95%;
+  height: 5%;
+  padding: 5px;
+  border-top: #000000 solid;
+  & ul {
+    display: flex;
+    list-style: none;
+    font-size: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px;
+    justify-content: space-between;
+    & li {
+      display: flex;
+      width: max-content;
+      font-size: 15px;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+}
+
+/* Fin Propiedades Footer */
+
 @media (min-width: 768px) {
   /* Inicio Propiedades Main Header 768px */
   .main__header {
@@ -203,12 +280,10 @@ a {
   }
 
   .destiny {
-
     &_tittle_main {
       margin-top: 2em;
       font-size: 4em;
-      animation: main__title 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
-        backwards;
+      animation: main__title 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) backwards;
     }
 
     @keyframes destiny_tittle_main {
@@ -224,11 +299,9 @@ a {
     }
 
     &_box {
-
       &_1 {
-
         &_tittle {
-            font-size: 3rem;
+          font-size: 3rem;
           animation: destiny_box_1_tittle 0.8s
             cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
         }
@@ -247,9 +320,8 @@ a {
       }
 
       &_2 {
-
         &_tittle {
-            font-size: 3rem;
+          font-size: 3rem;
           animation: destiny_box_1_tittle 0.8s
             cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
         }
@@ -268,9 +340,8 @@ a {
       }
 
       &_3 {
-
         &_tittle {
-            font-size: 3rem;
+          font-size: 3rem;
           animation: destiny_box_1_tittle 0.8s
             cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
         }
@@ -290,68 +361,212 @@ a {
     }
 
     .carousel {
-        width: 32em;
-      }
+      width: 32em;
+    }
   }
 
-  /* Fin Propiedades Main Header min 768px */
-
-  @media (min-width: 992px) {
-    .destiny {
-      background-image: url(/img/fondo-descubre.png);
-      background-repeat: no-repeat;
-      background-position: center bottom;
-
-      &_tittle_main {
-        margin-top: 3em;
-        font-size: 5em;
-        animation: main__title 1s cubic-bezier(0.55, 0.085, 0.68, 0.53)
-          backwards;
+  /* Inicio Propiedades Footer */
+  .main_footer {
+    height: 50em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    & ul {
+      list-style: none;
+      padding: 0px;
+      & li {
+        padding: 15px 0px;
       }
+    }
+  }
 
-      @keyframes destiny_tittle_main {
-        0% {
-          filter: blur(12px);
-          opacity: 0;
-        }
+  .main_support {
+    width: 45%;
+    height: 22em;
+  }
 
-        100% {
-          filter: blur(0px);
-          opacity: 1;
-        }
-      }
+  .main_community {
+    width: 45%;
+    height: 22em;
+  }
 
-      &_box {
-        flex-direction: row;
+  .main_about {
+    width: 45%;
+    height: 22em;
+  }
 
-        &_1 {
-          margin: 2em;
+  .main_redes {
+    width: 45%;
+    height: 22em;
+  }
 
-          &_tittle {
-            margin-bottom: 1em;
-          }
-        }
+  .main_copyrigth {
+    height: 4em;
+  }
 
-        &_2 {
-          margin: 2em;
+  /* Fin Propiedades Footer */
+}
+/* Fin Propiedades Main Header min 768px */
+@media (min-width: 992px) {
 
-          &_tittle {
-            margin-bottom: 1em;
-          }
-        }
-
-        &_3 {
-          margin: 2em;
-
-          &_tittle {
-            margin-bottom: 1em;
+  .main__header {
+    font-family: "Montserrat", sans-serif;
+    width: 98vw;
+    height: 96px;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: space-around;
+    align-items: center;
+    &__nav {
+      display: grid;
+      position: relative;
+      grid-template-columns: repeat(5, 1fr);
+      justify-content: end;
+      gap: 0 40px;
+      list-style: none;
+      justify-items: center;
+      & ul ul {
+        display: none;
+        position: absolute;
+        width: 70px;
+        padding-left: 15px;
+        padding-bottom: 15px;
+        bottom: -70px;
+        & li {
+          display: block;
+          &:hover ul {
+            display: block;
           }
         }
       }
     }
+    &--logo img {
+      padding: 20px;
+      margin: 25px;
+      border: 1px solid #ffffff;
+    }
+  }
 
-    .carousel {
-      width: 25em;
+  #header-principal {
+    background-color: white;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .Inicio {
+    color: #3685fb;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .destiny {
+    background-image: url(/img/fondo-descubre.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 1875px;
+
+    &_tittle_main {
+      margin-top: 3em;
+      font-size: 5em;
+      animation: main__title 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) backwards;
+    }
+
+    @keyframes destiny_tittle_main {
+      0% {
+        filter: blur(12px);
+        opacity: 0;
+      }
+
+      100% {
+        filter: blur(0px);
+        opacity: 1;
+      }
+    }
+
+    &_box {
+      flex-direction: row;
+
+      &_1 {
+        margin: 2em;
+  
+        &_tittle {
+          font-size: 2rem;
+          margin-bottom: 1em;
+          text-align: center;
+          animation: destiny_box_1_tittle 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) backwards;
+        }
+  
+        @keyframes destiny_box_1_tittle {
+          0% {
+            letter-spacing: -0.5em;
+            -webkit-filter: blur(12px);
+            filter: blur(12px);
+            opacity: 0;
+          }
+          100% {
+            -webkit-filter: blur(0px);
+          }
+        }
+      }
+
+      &_2 {
+        margin: 2em;
+
+        &_tittle {
+          margin-bottom: 1em;
+        }
+      }
+
+      &_3 {
+        margin: 2em;
+
+        &_tittle {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+
+  .carousel {
+    width: 25em;
+  }
+
+  .main_footer {
+    height: 33em;
+    padding: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .main_support {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+
+  .main_community {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+
+  .main_about {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+
+  .main_redes {
+    width: 20%;
+    height: 22em;
+    padding: 20px;
+  }
+
+  .main_copyrigth ul {
+    justify-content: flex-start;
+    & li {
+      width: 12%;
+      flex-direction: column;
     }
   }
 }
