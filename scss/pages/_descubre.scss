@@ -414,6 +414,7 @@ a {
     width: 98vw;
     height: 96px;
     position: fixed;
+    z-index: 2;
     display: grid;
     grid-template-columns: 200px auto;
     justify-content: space-around;
@@ -490,7 +491,6 @@ a {
         margin: 2em;
   
         &_tittle {
-          font-size: 2rem;
           margin-bottom: 1em;
           text-align: center;
           animation: destiny_box_1_tittle 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) backwards;
@@ -514,6 +514,18 @@ a {
 
         &_tittle {
           margin-bottom: 1em;
+          animation: destiny_box_2_tittle 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) backwards;
+        }
+        @keyframes destiny_box_2_tittle {
+          0% {
+            letter-spacing: -0.5em;
+            -webkit-filter: blur(12px);
+            filter: blur(12px);
+            opacity: 0;
+          }
+          100% {
+            -webkit-filter: blur(0px);
+          }
         }
       }
 
@@ -522,6 +534,18 @@ a {
 
         &_tittle {
           margin-bottom: 1em;
+          animation: destiny_box_3_tittle 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) backwards;
+        }
+        @keyframes destiny_box_3_tittle {
+          0% {
+            letter-spacing: -0.5em;
+            -webkit-filter: blur(12px);
+            filter: blur(12px);
+            opacity: 0;
+          }
+          100% {
+            -webkit-filter: blur(0px);
+          }
         }
       }
     }

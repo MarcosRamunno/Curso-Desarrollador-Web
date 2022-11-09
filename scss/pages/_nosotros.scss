@@ -1,0 +1,459 @@
+@font-face {
+  font-family: "Montserrat ";
+  src: url("/fonts/montserrat.regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Inicio Estilos Index */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  width: 25em;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+li {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Fin Estilos Index */
+
+/* Inicio Propiedades Main Header */
+.main__header {
+  background-color: white;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  width: 96vw;
+  height: 0em;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+
+    & li {
+      padding-left: 15px;
+      list-style: none;
+    }
+  }
+}
+
+.Inicio {
+  color: #3685fb;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Fin Propiedades Main Header */
+
+/* Inicio Propiedades Destiny One */
+.price_one_conteiner {
+  padding: 0 15px;
+  background-image: url(/img/reseñas.jpg);
+  background-repeat: no-repeat;
+}
+
+.review_one_conteiner_text {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-bottom: 35px;
+  margin-top: 5em;
+}
+
+.review_one_conteiner_text_tittle {
+  font-style: normal;
+  font-size: 50px;
+  width: 7em;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 15px 0;
+  animation: review_one_conteiner_text_tittle 2s
+    cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s backwards;
+}
+
+@keyframes review_one_conteiner_text_tittle {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+.review_one_conteiner_text_description {
+  font-weight: 500;
+  font-size: 20px;
+  animation: review_one_conteiner_text_description 2s
+    cubic-bezier(0.55, 0.085, 0.68, 0.53) 1.5s backwards;
+}
+
+@keyframes review_one_conteiner_text_description {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* Fin Propiedades Destiny One */
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.testimonial-card .avatar {
+  width: 110px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.reviews {
+  margin: auto;
+  width: 110em;
+  display: flex;
+  height: 40em;
+  flex-direction: column;
+}
+
+/* Inicio Propiedades Footer */
+.main_footer {
+  background-color: #f0f2f5;
+  display: flex;
+  width: 90%;
+  height: 83em;
+  padding: 18px;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-evenly;
+  & ul {
+    list-style: none;
+    padding: 0px;
+    & li {
+      padding: 15px 0px;
+    }
+  }
+}
+
+.main_support {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_community {
+  width: 90%;
+  height: 11%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_about {
+  width: 90%;
+  height: 24%;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_redes {
+  width: 90%;
+  height: 19em;
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_copyrigth {
+  display: flex;
+  width: 95%;
+  height: 5%;
+  padding: 5px;
+  border-top: #000000 solid;
+  & ul {
+    display: flex;
+    list-style: none;
+    font-size: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0px 0px;
+    justify-content: space-between;
+    & li {
+      display: flex;
+      width: max-content;
+      font-size: 15px;
+      padding: 5px;
+      text-align: center;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  /* Inicio Propiedades Main Header 768px */
+  .main__header {
+    background-color: white;
+    color: black;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    margin: 0;
+    height: 2em;
+    justify-content: space-between;
+
+    &__nav {
+      display: flex;
+      justify-content: space-around;
+      padding: 10px;
+
+      & li {
+        padding-left: 15px;
+        list-style: none;
+      }
+    }
+  }
+  .Inicio {
+    color: #3685fb;
+  }
+
+  /* Fin Propiedades Main Header 768px */
+
+  .review_one_conteiner {
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40em;
+  }
+
+  .review_one_conteiner_text {
+    display: grid;
+    padding: 50px;
+    bottom: 100px;
+    margin-top: 8em;
+    height: 50em;
+    grid-template-rows: 40% 20%;
+    align-content: space-around;
+    width: 115em;
+    background-image: url(/img/reseñas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .review_one_conteiner_text_tittle {
+    font-style: normal;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 1.6;
+    margin: 15px 0;
+    width: 17em;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .review_one_conteiner_text_description {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  /* Inicio Propiedades Footer */
+  .main_footer {
+    height: 50em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    & ul {
+      list-style: none;
+      padding: 0px;
+      & li {
+        padding: 15px 0px;
+      }
+    }
+  }
+
+  .main_support {
+    width: 45%;
+    height: 22em;
+  }
+
+  .main_community {
+    width: 45%;
+    height: 22em;
+  }
+
+  .main_about {
+    width: 45%;
+    height: 22em;
+  }
+
+  .main_redes {
+    width: 45%;
+    height: 22em;
+  }
+
+  .main_copyrigth {
+    height: 4em;
+  }
+
+  /* Fin Propiedades Footer */
+
+  @media (min-width: 992px) {
+    /* Inicio Propiedades Main Header 992px*/
+    .main__header {
+      font-family: "Montserrat", sans-serif;
+      width: 98vw;
+      height: 96px;
+      position: fixed;
+      display: grid;
+      grid-template-columns: 200px auto;
+      justify-content: space-around;
+      align-items: center;
+      &__nav {
+        display: grid;
+        position: relative;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: end;
+        gap: 0 40px;
+        list-style: none;
+        justify-items: center;
+        & ul ul {
+          display: none;
+          position: absolute;
+          width: 70px;
+          padding-left: 15px;
+          padding-bottom: 15px;
+          bottom: -70px;
+          & li {
+            display: block;
+            &:hover ul {
+              display: block;
+            }
+          }
+        }
+      }
+      &--logo img {
+        padding: 20px;
+        margin: 25px;
+        border: 1px solid #ffffff;
+      }
+    }
+
+    #header-principal {
+      background-color: white;
+      color: black;
+      font-family: "Montserrat", sans-serif;
+    }
+
+    .Inicio {
+      color: #3685fb;
+      font-family: "Montserrat", sans-serif;
+    }
+    /* Fin Propiedades Main Header 992px*/
+
+    .review_one {
+      display: flex;
+      justify-content: center;
+      height: 1000px;
+      &_conteiner {
+        display: grid;
+        width: 90%;
+        height: 100vh;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+
+    .review_one_conteiner_text {
+      display: grid;
+      padding: 50px;
+      bottom: 100px;
+      width: 115em;
+    }
+
+    .review_one_conteiner_text_tittle {
+      font-size: 53px;
+    }
+
+    /* inicio Propiedades Footer 992px*/
+    .main_footer {
+      height: 33em;
+      padding: 50px;
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+
+    .main_support {
+      width: 20%;
+      height: 22em;
+      padding: 20px;
+    }
+
+    .main_community {
+      width: 20%;
+      height: 22em;
+      padding: 20px;
+    }
+
+    .main_about {
+      width: 20%;
+      height: 22em;
+      padding: 20px;
+    }
+
+    .main_redes {
+      width: 20%;
+      height: 22em;
+      padding: 20px;
+    }
+
+    .main_copyrigth ul {
+      justify-content: flex-start;
+      & li {
+        width: 12%;
+        flex-direction: column;
+      }
+    }
+  }
+
+  /* Fin Propiedades Footer 992px*/
+}
